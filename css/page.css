@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	/* https://fonts.google.com/ */
+	font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+header{
+	background: #821E09;
+	/* full header alignment */
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+header h1 {
+	color: #3B0C02;
+	font-size: 50px
+}
+
+header img {
+	border-radius: 150px;
+	width: 200px;
+	border: 15px solid gold;
+}
+
+main{
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+main p {
+	text-align: center;
+}
+
+/* image scaling with main width */
+main img {
+	padding: 20px;
+	max-width: 100%;
+}
+
+
+h2 {
+	color: #3B0C02;
+	font-size:40px;
+}
+
+a {
+	color: #3B0C02;
+}
+
+a:hover{
+	color: gold;
+	/*background-color: #3B0C02;*/
+}
+
+footer {
+	background: white;
+	text-align: center;
+	padding: 10 px;
+	/*margin: 0 auto;*/
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+}
+
+p.caption {
+	color: #999999;
+	font-style: italic;
+	margin: 0;
+}
